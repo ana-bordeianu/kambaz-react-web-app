@@ -35,6 +35,7 @@ import Highlight from "./Highlight";
 import PathParameters from "./PathParameters";
 
 export default function Lab3() {
+	console.log("Hello, World!")
 	return (
 	  <div id="wd-lab3" className="lab-container"> 
 		<h3>Lab 3</h3><br />
@@ -75,6 +76,6 @@ export default function Lab3() {
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipitratione eaque illo minus cum, saepe totam
 		vel nihil repellat nemo explicabo excepturi consectetur. Modi omnis minus sequi maiores, provident voluptates.
 		</Highlight> <hr />
-		<PathParameters/>
+		<PathParameters/> 
   </div>
   )};

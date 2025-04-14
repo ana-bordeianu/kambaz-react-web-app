@@ -10,7 +10,7 @@ export default function MapFunction() {
         squares = {squares} <br />
         cubes = {cubes} <br />
         Todos:
-  <ol>
+        <ol>
           {todos.map((todo) => (
             <li>{todo}</li>
           ))}

@@ -8,6 +8,6 @@ export default function Classes() {
         Dangerous background
         </div>
         <div className={`wd-bg-${color} wd-fg-black wd-padding-10px`}>
-        Dynamic Blue background </div>
+        Dynamic Blue background </div> <hr />
         </div> ) 
     };

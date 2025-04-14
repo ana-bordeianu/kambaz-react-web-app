@@ -11,5 +11,5 @@ export default function Styles() {
     <h2>Styles</h2> 
     <div style={{"backgroundColor": "lightyellow", "color": "black", padding: "10px" }}>
     Yellow background</div>
-    <div style={ bgRed }> Red background </div> <div style={ bgBlue }>Blue background</div>
+    <div style={ bgRed }> Red background </div> <div style={ bgBlue }>Blue background</div> <hr />
     </div> );};

@@ -5,8 +5,12 @@ import Lab2 from "./Lab2";
 import Lab3 from "./Lab3";
 import Lab4 from "./Lab4";
 import Kambaz from "../Kambaz"
+import store from "./store";
+import { Provider } from "react-redux";
+
 export default function Labs() {
 return (
+	<Provider store={store}>
 	<div id="wd-labs">
 		<h1>Labs</h1>
 		<h2>Ana Bordeianu</h2>
@@ -21,4 +25,5 @@ return (
 			<Route path="GitHub" element={<Navigate to="https://github.com/ana-bordeianu"/>} />
 		</Routes>
 	</div>
+	</Provider>
 );}

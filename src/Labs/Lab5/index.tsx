@@ -2,12 +2,17 @@ import EnvironmentVariables from "./EnvironmentVariables";
 import PathParameters from "./PathParameters";
 import QueryParameters from "./QueryParameters";
 import WorkingWithObjects from "./WorkingWithObjects";
+import WorkingWithArrays from "./WorkingWithArrays";
+import HttpClient from "./HttpClient";
+import WorkingWithObjectsAsynchronously from "./WorkingWithObjectsAsynchronously";
+import WorkingWithArraysAsynchronously from "./WorkingWithArraysAsynchronously";
+import "./index.css";
 
 const REMOTE_SERVER = import.meta.env.VITE_REMOTE_SERVER;
 
 export default function Lab5() {
     return (
-        <div id="wd-lab5">
+        <div id="wd-lab5" className="lab-5-container">
             <h2>Lab 5</h2>
             <div className="list-group">
                 <a href={`${REMOTE_SERVER}/lab5/welcome`}
@@ -19,6 +24,10 @@ export default function Lab5() {
             <PathParameters />
             <QueryParameters />
             <WorkingWithObjects />
+            <WorkingWithArrays />
+            <HttpClient />
+            <WorkingWithObjectsAsynchronously />
+            <WorkingWithArraysAsynchronously />
         </div>
     );
 }
